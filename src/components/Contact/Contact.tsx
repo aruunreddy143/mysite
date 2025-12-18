@@ -1,6 +1,6 @@
 import './Contact.css'
 
-function Contact(): JSX.Element {
+function Contact() {
   const currentYear: number = new Date().getFullYear()
 
   return (

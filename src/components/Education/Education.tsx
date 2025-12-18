@@ -17,7 +17,7 @@ interface Certification {
   year: string
 }
 
-function Education(): JSX.Element {
+function Education() {
   const education: Education[] = [
     {
       id: 1,

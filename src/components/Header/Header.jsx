@@ -11,7 +11,7 @@ function Header() {
           <div className="profile-info">
             <h1 className="name">Arun Kumar Reddy Nakka</h1>
             <p className="title">Senior Software Engineer & Team Lead</p>
-            <p className="bio">16+ years of expertise in React, Node.js, and Cloud Architecture | Building high-performance applications</p>
+            <p className="bio">{new Date().getFullYear() - 2008}+ years of expertise in React, Node.js, and Cloud Architecture | Building high-performance applications</p>
             <div className="contact-quick">
               <a href="mailto:arun.kumar.reddy.nakka@gmail.com" className="contact-item">📧 Email</a>
               <a href="tel:+447405542771" className="contact-item">📱 +44 7405 542771</a>

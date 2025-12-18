@@ -7,7 +7,7 @@ function Education() {
       institution: 'Osmania University',
       degree: 'Bachelor of Education',
       year: '2008',
-      details: 'Distinction Grade (68%)',
+      details: 'Distinction Grade (74%)',
       achievements: ['Core focus on technology and education', 'Developed strong foundation in computer science']
     }
   ]

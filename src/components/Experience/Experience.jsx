@@ -48,7 +48,7 @@ function Experience() {
     <section id="experience" className="experience">
       <div className="section-header">
         <h2>Professional Experience</h2>
-        <p className="section-subtitle">16+ years of building high-performance applications</p>
+        <p className="section-subtitle">{new Date().getFullYear() - 2008}+ years of building high-performance applications</p>
       </div>
       <div className="timeline">
         {experiences.map((exp, index) => (

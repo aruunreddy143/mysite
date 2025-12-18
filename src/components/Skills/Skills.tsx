@@ -1,7 +1,15 @@
+import React from 'react'
 import './Skills.css'
 
-function Skills() {
-  const skillCategories = [
+interface SkillCategory {
+  category: string
+  icon: string
+  skills: string[]
+  color: string
+}
+
+function Skills(){
+  const skillCategories: SkillCategory[] = [
     {
       category: 'Frontend',
       icon: '🎨',
@@ -11,7 +19,7 @@ function Skills() {
     {
       category: 'Backend',
       icon: '⚙️',
-      skills: ['Node.js', 'Express.js', 'Java', 'Spring Boot', 'RESTful APIs', 'Microservices'],
+      skills: ['Node.js', 'Express.js', "Python", 'Java', 'Spring Boot', 'RESTful APIs', 'Microservices'],
       color: '#764ba2'
     },
     {
@@ -48,7 +56,11 @@ function Skills() {
       </div>
       <div className="skills-grid">
         {skillCategories.map((category, index) => (
-          <div key={index} className="skill-category" style={{'--accent-color': category.color}}>
+          <div 
+            key={index} 
+            className="skill-category" 
+            style={{ '--accent-color': category.color } as React.CSSProperties}
+          >
             <div className="category-header">
               <span className="category-icon">{category.icon}</span>
               <h3>{category.category}</h3>

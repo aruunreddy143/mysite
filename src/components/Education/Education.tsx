@@ -1,7 +1,24 @@
+
 import './Education.css'
 
-function Education() {
-  const education = [
+interface Education {
+  id: number
+  institution: string
+  degree: string
+  year: string
+  details: string
+  achievements?: string[]
+}
+
+interface Certification {
+  id: number
+  title: string
+  issuer: string
+  year: string
+}
+
+function Education(): JSX.Element {
+  const education: Education[] = [
     {
       id: 1,
       institution: 'Osmania University',
@@ -12,7 +29,7 @@ function Education() {
     }
   ]
 
-  const certifications = [
+  const certifications: Certification[] = [
     {
       id: 1,
       title: 'AWS Solutions Architect Associate',

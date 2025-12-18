@@ -1,7 +1,17 @@
+
 import './Experience.css'
 
+interface Experience {
+  id: number
+  company: string
+  position: string
+  duration: string
+  type: string
+  description: string[]
+}
+
 function Experience() {
-  const experiences = [
+  const experiences: Experience[] = [
     {
       id: 1,
       company: 'LTI Mindtree',

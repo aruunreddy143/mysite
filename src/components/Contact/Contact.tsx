@@ -1,7 +1,7 @@
 import './Contact.css'
 
-function Contact() {
-  const currentYear = new Date().getFullYear()
+function Contact(): JSX.Element {
+  const currentYear: number = new Date().getFullYear()
 
   return (
     <footer id="contact" className="contact">

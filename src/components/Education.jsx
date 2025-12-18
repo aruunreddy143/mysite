@@ -4,41 +4,83 @@ function Education() {
   const education = [
     {
       id: 1,
-      institution: 'Tech University',
-      degree: 'Bachelor of Science in Computer Science',
-      year: '2014 - 2018',
-      details: 'Graduated with Honors, GPA: 3.8/4.0'
+      institution: 'Osmania University',
+      degree: 'Bachelor of Education',
+      year: '2008',
+      details: 'Distinction Grade (68%)',
+      achievements: ['Core focus on technology and education', 'Developed strong foundation in computer science']
+    }
+  ]
+
+  const certifications = [
+    {
+      id: 1,
+      title: 'AWS Solutions Architect Associate',
+      issuer: 'Amazon Web Services',
+      year: '2022'
     },
     {
       id: 2,
-      institution: 'Professional Development',
-      degree: 'Advanced React Development Certification',
-      year: '2020',
-      details: 'Specialized in state management and performance optimization'
+      title: 'Advanced React Development',
+      issuer: 'Udemy',
+      year: '2021'
     },
     {
       id: 3,
-      institution: 'Cloud Platform Certification',
-      degree: 'AWS Solutions Architect Associate',
-      year: '2021',
-      details: 'Certified in designing and deploying scalable cloud solutions'
+      title: 'Kubernetes & Docker',
+      issuer: 'Linux Academy',
+      year: '2020'
     }
   ]
 
   return (
     <section id="education" className="education">
-      <h2>Education & Certifications</h2>
-      <div className="education-list">
-        {education.map((edu) => (
-          <div key={edu.id} className="education-card">
-            <div className="education-header">
-              <h3>{edu.degree}</h3>
-              <span className="year">{edu.year}</span>
-            </div>
-            <p className="institution">{edu.institution}</p>
-            <p className="details">{edu.details}</p>
+      <div className="section-header">
+        <h2>Education & Certifications</h2>
+        <p className="section-subtitle">Continuous learning and professional development</p>
+      </div>
+      
+      <div className="education-content">
+        <div className="education-section">
+          <h3 className="subsection-title">🎓 Degree</h3>
+          <div className="education-list">
+            {education.map((edu) => (
+              <div key={edu.id} className="education-card">
+                <div className="education-header">
+                  <div className="education-main">
+                    <h4>{edu.degree}</h4>
+                    <p className="institution">{edu.institution}</p>
+                  </div>
+                  <span className="year">{edu.year}</span>
+                </div>
+                <p className="details">{edu.details}</p>
+                {edu.achievements && (
+                  <ul className="achievements">
+                    {edu.achievements.map((achievement, idx) => (
+                      <li key={idx}>{achievement}</li>
+                    ))}
+                  </ul>
+                )}
+              </div>
+            ))}
           </div>
-        ))}
+        </div>
+
+        <div className="education-section">
+          <h3 className="subsection-title">📜 Certifications</h3>
+          <div className="certifications-grid">
+            {certifications.map((cert) => (
+              <div key={cert.id} className="certification-card">
+                <div className="cert-header">
+                  <div className="cert-icon">✓</div>
+                  <span className="cert-year">{cert.year}</span>
+                </div>
+                <h4 className="cert-title">{cert.title}</h4>
+                <p className="cert-issuer">{cert.issuer}</p>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   )

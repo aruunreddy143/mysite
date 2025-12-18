@@ -1,0 +1,173 @@
+{
+  "personalInfo": {
+    "fullName": "Arun Kumar Reddy Nakka",
+    "currentTitle": "Senior Software Engineer",
+    "contact": {
+      "email": "arun.kumar.reddy.nakka@gmail.com",
+      "phone": "+44 07405542771",
+      "location": "UK",
+      "linkedin": "https://www.linkedin.com/in/arun-kumar-reddy-nakka-44ba7553/"
+    }
+  },
+  "professionalSummary": "Senior Software Engineer with 16+ years of experience building rich performing applications using React, Redux, Angular, Node JS, Express and Spring boot in an agile environment. Working as Team Lead and responsible for team management, client interactions, application design, development best practices, testing, code review, security and CI/CD pipeline using AWS and Azure cloud platforms.",
+  "workExperience": [
+    {
+      "id": 1,
+      "position": "Senior Software Engineer (React Native)",
+      "company": "LTI Mindtree",
+      "location": "UK",
+      "startDate": "Dec 2024",
+      "endDate": "Current",
+      "duration": "Current",
+      "responsibilities": [
+        "Design, architect, develop presentation layers using React Native, Expo, Jest and React testing library which interacts with Rest Services",
+        "Worked on Azure deployment which has CI/CD pipelines",
+        "Leading a team of 10 members and worked closely with UI/UX designer to gather requirements for building rich applications",
+        "Create and implement smooth, clean animations to attract and retain customers on multiple platforms"
+      ]
+    },
+    {
+      "id": 2,
+      "position": "Senior Software Engineer",
+      "company": "JP Morgan Chase",
+      "location": "UK",
+      "startDate": "Feb 2019",
+      "endDate": "Current",
+      "duration": "Current",
+      "responsibilities": [
+        "Design, architect, develop and test high performing presentation layers using React, Highcharts, Vue JS, Material UI toolkit, Jest and React testing library which interacts with WebSocket APIs and Rest Services",
+        "Worked on Kubernetes container deployment which has CI/CD pipelines"
+      ]
+    },
+    {
+      "id": 3,
+      "position": "Senior Software Engineer",
+      "company": "Verizon (at Cognizant Technology Solutions)",
+      "location": "UK",
+      "startDate": "Sept 2016",
+      "endDate": "Feb 2019",
+      "duration": "2 years 5 months",
+      "responsibilities": [
+        "Responsible for the Solution and technical design of entire platform and integration with various other systems",
+        "Mentoring other team members, reviewing their deliverables and an overall responsibility for the quality and timeliness of the team's deliverables",
+        "Review all technical decisions/designs and provide constructive feedback and Present solutions to stakeholders"
+      ]
+    },
+    {
+      "id": 4,
+      "position": "Software Engineer",
+      "company": "O2 (at Cognizant Technology Solutions)",
+      "location": "UK",
+      "startDate": "Aug 2014",
+      "endDate": "Sept 2016",
+      "duration": "2 years 1 month",
+      "responsibilities": [
+        "Designed and developed the application to be responsive for desktop, mobile and tablets using Twitter Bootstrap, HTML5, CSS, and JavaScript",
+        "Involvement in all stages of Software development life cycle including Analysis, development, Implementation, testing and support",
+        "Developed single page web application using JavaScript framework"
+      ]
+    },
+    {
+      "id": 5,
+      "position": "Software Engineer",
+      "company": "British Airways (at Cognizant Technology Solutions)",
+      "location": "UK",
+      "startDate": "Aug 2013",
+      "endDate": "Aug 2014",
+      "duration": "1 year",
+      "responsibilities": [
+        "Wrote a combination of jQuery plugins, as well as completely custom JavaScript to build a bleeding-edge, AJAX-driven user interface",
+        "Involved in writing application-level code to interact with APIs, Web Services using AJAX, JSON and XML",
+        "Designed and developed intranet web applications using JSP, JavaScript and CSS"
+      ]
+    },
+    {
+      "id": 6,
+      "position": "Software Engineer",
+      "company": "American Express (at Cognizant Technology Solutions)",
+      "location": "India",
+      "startDate": "Sept 2008",
+      "endDate": "Aug 2013",
+      "duration": "5 years",
+      "responsibilities": [
+        "Responsible for design and development of web pages using HTML, CSS, JavaScript",
+        "Coordinated with BA group for better understanding of functional requirements, analyzed and designed the business requirements to documented and implemented"
+      ]
+    }
+  ],
+  "skills": {
+    "frontend": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "React",
+      "React Native",
+      "Redux",
+      "Angular",
+      "Vue JS",
+      "Material UI",
+      "Highcharts"
+    ],
+    "testing": [
+      "Jest",
+      "React Testing Library",
+      "Cypress"
+    ],
+    "backend": [
+      "Node JS",
+      "Express",
+      "Java",
+      "Spring Boot",
+      "JSP"
+    ],
+    "databases": [
+      "MySQL",
+      "Oracle"
+    ],
+    "devOps": [
+      "AWS",
+      "Azure",
+      "Jenkins",
+      "Kubernetes",
+      "CI/CD Pipelines"
+    ],
+    "tools": [
+      "Maven",
+      "SONAR",
+      "jQuery",
+      "AJAX",
+      "JSON",
+      "XML",
+      "Twitter Bootstrap",
+      "Expo"
+    ],
+    "methodologies": [
+      "Agile/Scrum",
+      "Kanban"
+    ],
+    "other": [
+      "Team Lead",
+      "Code Review",
+      "Application Architecture",
+      "REST APIs",
+      "WebSocket APIs"
+    ]
+  },
+  "education": [
+    {
+      "degree": "Bachelor of Education",
+      "school": "Osmania University",
+      "graduationYear": 2008,
+      "honors": "Distinction",
+      "percentage": "68%"
+    }
+  ],
+  "yearsOfExperience": 16,
+  "keyHighlights": [
+    "16+ years of software development experience",
+    "Team Lead managing 10+ members",
+    "Expertise in React, React Native, and modern JavaScript frameworks",
+    "Cloud deployment experience with AWS and Azure",
+    "Full-stack development capabilities (Frontend, Backend, DevOps)"
+  ]
+}

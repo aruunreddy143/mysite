@@ -4,33 +4,55 @@ function Skills() {
   const skillCategories = [
     {
       category: 'Frontend',
-      skills: ['React.js', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Redux', 'Vue.js']
+      icon: '🎨',
+      skills: ['React.js', 'React Native', 'Redux', 'Angular', 'Vue.js', 'HTML5', 'CSS3', 'JavaScript', 'TypeScript'],
+      color: '#667eea'
     },
     {
       category: 'Backend',
-      skills: ['Node.js', 'Express.js', 'Python', 'Java', 'REST APIs', 'GraphQL']
+      icon: '⚙️',
+      skills: ['Node.js', 'Express.js', 'Java', 'Spring Boot', 'RESTful APIs', 'Microservices'],
+      color: '#764ba2'
+    },
+    {
+      category: 'Testing',
+      icon: '✅',
+      skills: ['Jest', 'React Testing Library', 'Cypress', 'JUnit', 'Mockito'],
+      color: '#f093fb'
+    },
+    {
+      category: 'Cloud & DevOps',
+      icon: '☁️',
+      skills: ['AWS', 'Azure', 'Jenkins', 'Kubernetes', 'CI/CD', 'Docker'],
+      color: '#f5576c'
     },
     {
       category: 'Databases',
-      skills: ['MongoDB', 'PostgreSQL', 'MySQL', 'Firebase', 'Redis']
+      icon: '🗄️',
+      skills: ['MySQL', 'Oracle', 'PostgreSQL', 'MongoDB'],
+      color: '#00b4d8'
     },
     {
       category: 'Tools & Platforms',
-      skills: ['Git', 'Docker', 'AWS', 'Azure', 'CI/CD', 'Webpack', 'Vite']
-    },
-    {
-      category: 'Soft Skills',
-      skills: ['Team Leadership', 'Communication', 'Problem Solving', 'Agile Methodology', 'Mentoring']
+      icon: '🛠️',
+      skills: ['Git', 'JIRA', 'Webpack', 'Vite', 'NPM', 'Maven', 'Linux'],
+      color: '#00d4aa'
     }
   ]
 
   return (
     <section id="skills" className="skills">
-      <h2>Skills</h2>
+      <div className="section-header">
+        <h2>Technical Skills</h2>
+        <p className="section-subtitle">Expertise in modern web technologies and cloud platforms</p>
+      </div>
       <div className="skills-grid">
         {skillCategories.map((category, index) => (
-          <div key={index} className="skill-category">
-            <h3>{category.category}</h3>
+          <div key={index} className="skill-category" style={{'--accent-color': category.color}}>
+            <div className="category-header">
+              <span className="category-icon">{category.icon}</span>
+              <h3>{category.category}</h3>
+            </div>
             <div className="skill-tags">
               {category.skills.map((skill, idx) => (
                 <span key={idx} className="skill-tag">{skill}</span>

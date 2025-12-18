@@ -5,11 +5,11 @@ function Experience() {
     {
       id: 1,
       company: 'LTI Mindtree',
-      position: 'React Native Web Application Developer',
+      position: 'Senior React Developer',
       duration: 'Dec 2024 - Present',
       type: 'Current',
       description: [
-        'Developing cross-platform React Native web applications',
+        'Developing cross-platform React Native and React web applications',
         'Implementing modern UI/UX with responsive design patterns',
         'Collaborating with product and design teams for feature development'
       ]
@@ -18,7 +18,7 @@ function Experience() {
       id: 2,
       company: 'JP Morgan Chase',
       position: 'Senior Software Engineer (Team Lead)',
-      duration: 'Feb 2019 - Current',
+      duration: 'Feb 2019 - Dec 2024',
       type: 'Team Lead',
       description: [
         'Managing a team of 10+ developers with focus on delivery excellence',
@@ -40,19 +40,8 @@ function Experience() {
         'Created reusable component libraries and design systems',
         'Collaborated with backend teams on API integration and optimization'
       ]
-    },
-    {
-      id: 4,
-      company: 'O2/Cognizant',
-      position: 'Software Engineer',
-      duration: 'Aug 2014 - Sept 2016',
-      type: 'Full-time',
-      description: [
-        'Built customer-facing web applications using AngularJS and JavaScript',
-        'Optimized application load times and improved user experience',
-        'Participated in agile development cycles with 2-week sprints'
-      ]
     }
+   
   ]
 
   return (

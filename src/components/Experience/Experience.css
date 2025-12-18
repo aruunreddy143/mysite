@@ -282,7 +282,11 @@
   }
 
   .timeline::before {
-    left: 15px;
+    display: none;
+  }
+
+  .timeline-marker {
+    display: none;
   }
 
   .timeline-item {

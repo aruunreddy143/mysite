@@ -1,6 +1,8 @@
 import './Contact.css'
 
 function Contact() {
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer id="contact" className="contact">
       <div className="contact-content">
@@ -25,24 +27,9 @@ function Contact() {
             <span className="btn-text">LinkedIn</span>
             <span className="btn-sub">Connect with me</span>
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="contact-btn">
-            <span className="btn-icon">⚙</span>
-            <span className="btn-text">GitHub</span>
-            <span className="btn-sub">View projects</span>
-          </a>
         </div>
-
-        <div className="social-section">
-          <p className="social-label">Follow me on</p>
-          <div className="social-links">
-            <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="social-btn">Twitter</a>
-            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" className="social-btn">Instagram</a>
-          </div>
-        </div>
-
         <div className="footer-bottom">
-          <p>&copy; 2024-2025 Arun Kumar Reddy Nakka. All rights reserved.</p>
-          <p className="footer-note">Crafted with <span className="heart">❤</span> using React & Modern Web Technologies</p>
+          <p>&copy; {currentYear} Arun Kumar Reddy Nakka. All rights reserved.</p>
         </div>
       </div>
     </footer>

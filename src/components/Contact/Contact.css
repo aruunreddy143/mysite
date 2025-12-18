@@ -80,6 +80,11 @@
   color: white;
 }
 
+.btn-icon {
+  font-size: 2.8rem;
+  transition: var(--transition);
+}
+
 .contact-btn .icon {
   font-size: 2rem;
   transition: var(--transition);

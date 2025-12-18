@@ -15,18 +15,15 @@ function Contact() {
           <a href="mailto:arun.kumar.reddy.nakka@gmail.com" className="contact-btn">
             <span className="btn-icon">✉</span>
             <span className="btn-text">Email</span>
-            <span className="btn-sub">arun.kumar.reddy.nakka@gmail.com</span>
-          </a>
+              </a>
           <a href="tel:+447405542771" className="contact-btn">
             <span className="btn-icon">📱</span>
             <span className="btn-text">Phone</span>
-            <span className="btn-sub">+44 7405 542771</span>
-          </a>
+            </a>
           <a href="https://www.linkedin.com/in/arun-kumar-reddy-nakka-44ba7553/" target="_blank" rel="noopener noreferrer" className="contact-btn">
             <span className="btn-icon">💼</span>
             <span className="btn-text">LinkedIn</span>
-            <span className="btn-sub">Connect with me</span>
-          </a>
+           </a>
         </div>
         <div className="footer-bottom">
           <p>&copy; {currentYear} Arun Kumar Reddy Nakka. All rights reserved.</p>
